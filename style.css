@@ -1,0 +1,101 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    }
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+    
+
+.input_one {
+          background-color: #E9ECEF;
+          border-radius: 5px; 
+          margin: 5%;
+          padding: 1% 8% 1% 8%                   
+}   
+
+.input_one:hover {
+    background-color: #DEE2E6;    
+} 
+.input_one:focus {
+    border-color: #000000;
+}
+.main_one {
+    margin: 0 auto;
+}
+.div_three {
+    max-width: 500px;
+    width: 100%;
+    margin: 80px auto;
+    text-align: center;  
+}
+.form_one {
+    margin: 5%;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 50px;
+    width: 238px;
+    max-width: 50%;
+      
+}
+.button_one {
+    color: white;
+    background: #1971C2;   
+    border-radius: 5px; 
+    margin: 10px;
+    padding: 1% 34% 1% 34%
+    
+
+}
+.button_one:hover {
+    background-color:#1864AB ;
+    
+}
+.button_one:focus {
+    border-color: #000000;
+}
+
+
+.p_one {
+    padding: 20px;
+    font-weight: 900;     
+}
+.div_four {
+    text-align: left;
+}
